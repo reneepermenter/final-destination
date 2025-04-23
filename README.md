@@ -1,2 +1,2 @@
-# final-desstination
+# final-destination
 travel destinations
