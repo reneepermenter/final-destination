@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore the World</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta property="og:title" content="Explore the World" />
+    <meta
+      property="og:description"
+      content="Discover amazing travel destinations."
+    />
+    <meta property="og:image" content="img/hero.jpg" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Explore the World" />
+    <meta
+      name="twitter:description"
+      content="Discover amazing travel destinations."
+    />
+    <meta name="twitter:image" content="img/hero.jpg" />
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo.png"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="d-inline-block align-top"
+          />
+          Travel Site
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Places to Visit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid p-0">
+      <div
+        class="jumbotron jumbotron-fluid bg-info text-white text-center parallax"
+        style="
+          background-image: url('img/paradise-beach.png');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="container">
+          <h1 class="display-4">Discover Your Next Adventure</h1>
+          <p class="lead">
+            Explore breathtaking destinations around the world.
+          </p>
+          <a class="btn btn-light btn-lg" href="places.html" role="button"
+            >Explore Places</a
+          >
+        </div>
+      </div>
+
+      <section class="py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/white-sand.png"
+                  class="card-img-top"
+                  alt="Paradise Beach"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Paradise Beach</h5>
+                  <p class="card-text">
+                    Relax on the white sands of this tropical paradise.
+                  </p>
+                  <a
+                    href="https://www.paradisebeachcozumel.com/"
+                    class="btn btn-primary"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/mtn-peaks.png"
+                  class="card-img-top"
+                  alt="Mountain Majesty"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Mountain Majesty</h5>
+                  <p class="card-text">
+                    Experience the breathtaking views from towering peaks.
+                  </p>
+                  <a
+                    href="https://pelorustravel.com/us/italy/experiences/majestic-mountains-italian-dolomites"
+                    class="btn btn-success"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/ancient-city.png"
+                  class="card-img-top"
+                  alt="Ancient Cities"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ancient Cities</h5>
+                  <p class="card-text">
+                    Explore the rich history and culture of these ancient
+                    cities.
+                  </p>
+                  <a
+                    href="https://www.viator.com/blog/8-Ancient-Cities-of-the-World-to-Add-to-Your-Travel-Wish-List/l93591"
+                    class="btn btn-warning"
+                    >Learn More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <h2>Explore More</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Stunning Hikes
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>
+                        Discover the serene beauty of this secluded location.
+                        Enjoy hiking trails and stunning natural landscapes.
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="https://www.wta.org/go-outside/hikes"
+                        ><img
+                          src="img/hikes.png"
+                          alt="Hidden Gem 1"
+                          class="img-fluid rounded"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Small Town N.M.
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>
+                        Immerse yourself in the vibrant culture and history of
+                        this charming town. Explore local markets and historical
+                        sites.
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <a
+                        href="https://www.tripadvisor.com/Tourism-g47243-Tularosa_New_Mexico-Vacations.html"
+                        ><img
+                          src="img/tulie-freeze.png"
+                          alt="Hidden Gem 2"
+                          class="img-fluid rounded"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Nature Enthusiasts
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>
+                        Experience the thrill of adventure in this rugged
+                        terrain. Perfect for hiking, camping, and nature
+                        enthusiasts.
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="https://www.alltrails.com/us/washington/camping"
+                        ><img
+                          src="img/rugged-terrain.png"
+                          alt="Hidden Gem 3"
+                          class="img-fluid rounded"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <a
+              href="https://www.https://www.facebook.com/NayNay337691"
+              target="_blank"
+              class="mr-3"
+              ><img
+                src="img/facebook.png"
+                alt="Facebook"
+                width="30"
+                height="30"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank" class="mr-3"
+              ><img
+                src="img/instagram.png"
+                alt="Instagram"
+                width="30"
+                height="30"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/renee-permenter-91ba701b9/"
+              target="_blank"
+              ><img
+                src="img/linkedin.png"
+                alt="LinkedIn"
+                width="30"
+                height="30"
+            /></a>
+            <p class="mt-2">&copy; 2025 Explore the World</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
